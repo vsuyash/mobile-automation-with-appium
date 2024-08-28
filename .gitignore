@@ -3,34 +3,25 @@
 *.jar
 *.war
 
-# Gradle files
-.gradle/
-build/
+# Exclude target directory
+target/
 
-# IntelliJ IDEA
-.idea/
-*.iml
+# Exclude .classpath and other IDE-specific files
+.classpath
+.project
+.settings/
 
-# Eclipse
-*.classpath
-*.project
-*.settings/
-
-# Logs
+# Exclude logs
 *.log
+
+# Exclude temporary files
+*.tmp
 
 # Test output
 test-output/
 
 # Local environment settings
 local.properties
-
-# Node modules
-node_modules/
-
-# OS-specific files
-.DS_Store
-Thumbs.db
 
 # Appium settings
 *.apk
