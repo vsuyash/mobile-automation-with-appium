@@ -1,0 +1,37 @@
+# Java build files
+*.class
+*.jar
+*.war
+
+# Gradle files
+.gradle/
+build/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+
+# Eclipse
+*.classpath
+*.project
+*.settings/
+
+# Logs
+*.log
+
+# Test output
+test-output/
+
+# Local environment settings
+local.properties
+
+# Node modules
+node_modules/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Appium settings
+*.apk
+*.ipa
